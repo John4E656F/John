@@ -21,8 +21,14 @@ main {
 
 .icons-social a {
 	color: #4B5658;
+	-webkit-transition: .3s ease-in-out;
+	transition: rotate(90deg);
 }
 
 .icons-social a svg path{
 	fill: #4B5658;
+}
+.icons-social a:hover {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
